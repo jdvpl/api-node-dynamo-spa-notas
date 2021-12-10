@@ -1,0 +1,19 @@
+{
+  "name": "api-node-dynamo-spa-notas",
+  "version": "1.0.0",
+  "description": "aplicacacion de node conectada a la base de datos dynamodb para angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon /bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvpl/api-node-dynamo-spa-notas.git"
+  },
+  "author": "jdvpl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvpl/api-node-dynamo-spa-notas/issues"
+  },
+  "homepage": "https://github.com/jdvpl/api-node-dynamo-spa-notas#readme"
+}
