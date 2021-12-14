@@ -4,7 +4,7 @@
   "description": "aplicacacion de node conectada a la base de datos dynamodb para angular",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon /bin/server.js"
+    "start": "nodemon ./bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,23 @@
   "bugs": {
     "url": "https://github.com/jdvpl/api-node-dynamo-spa-notas/issues"
   },
-  "homepage": "https://github.com/jdvpl/api-node-dynamo-spa-notas#readme"
+  "homepage": "https://github.com/jdvpl/api-node-dynamo-spa-notas#readme",
+  "dependencies": {
+    "aws-sdk": "^2.247.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "http": "0.0.0",
+    "moment": "^2.22.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "underscore": "^1.9.0",
+    "uuid": "^3.2.1"
+  },
+  "bin": {
+    "td-notes-app": "server.js"
+  }
 }
